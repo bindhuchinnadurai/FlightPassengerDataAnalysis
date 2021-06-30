@@ -24,7 +24,10 @@ The code is written in Scala. This is my first attempt in writting scala code. S
         - FlightDataReader.scala /** Trait with functions declared to read data from csv and load to collections */
         - PassengerFlightJourneyReader.scala /** Implementation of FlightDataReader trait */
         - FlightDataQueryEngine.scala /** Implementation of the the 4 usecases listed above*/
-
+  - test
+   - scala
+    -  FlightDataQueryEngineTest.scala /** Test the loading of csv into collections using a subset of data - *_sample.csv **/   
+    -  FlightDataQueryEngineTest.scala /** Test cases to test each of the 4 usecases listed above using a subset of data - *_sample.csv **/
 
 Note - Please increase the java heap memory for usecase 4 as the solution makes use of combinations.
 
